@@ -1,4 +1,4 @@
-
+---
 - label: 1Forge
   slug: 1forge
   url: http://1forge.streamdata.gallery
@@ -7605,7 +7605,7 @@
   image: zendesk.png
   description: The gallery section containing Zendesk APIs.
   paths: 12589
-- label: Zepheira LLC
+- label: Zepheira
   slug: zepheira-llc
   url: http://zepheira.llc.streamdata.gallery
   image: zepheira-llc.png
@@ -7617,7 +7617,7 @@
   image: zerigo.png
   description: The gallery section containing Zerigo APIs.
   paths: 12622
-- label: ZuoraAPI
+- label: Zuora
   slug: zuoraapi
   url: http://zuoraapi.streamdata.gallery
   image: zuoraapi.png
