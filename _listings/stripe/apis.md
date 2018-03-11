@@ -20,9 +20,9 @@ tags:
 - Change Log
 - Billing
 - API LIfeycle
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/stripe/apis.yaml
+created: "2018-03-11"
+modified: "2018-03-11"
+url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stripe/master/_listings/stripe/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Stripe
@@ -30,10 +30,23 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: ""
   baseURL: https://api.stripe.com/v1/
-  tags: Payments
+  tags:
+  - Stripe Stack
+  - Stack Network
+  - Stack
+  - Payments
+  - Payments
+  - Payment API
+  - Invoicing
+  - Imports
+  - Finance
+  - Change Log Example
+  - Change Log
+  - Billing
+  - API LIfeycle
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/stripe/transfers-transfer-reversals-id-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stripe/master/_listings/stripe/transfers-transfer-reversals-id-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
