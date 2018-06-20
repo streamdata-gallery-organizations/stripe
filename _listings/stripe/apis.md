@@ -1,22 +1,23 @@
 ---
 name: Stripe
 x-slug: stripe
-description: 'Stripe is a simple, developer-friendly way to accept payments online.
-  They believe that enabling transactions on the web is a problem rooted in code,
-  not finance, and they want to help put more websites in business. '
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+description: Online payment processing for internet businesses. Stripe is a suite
+  of payment APIs that powers commerce for online businesses of all sizes, including
+  fraud prevention, and subscription management. Use Stripe???s payment platform to
+  accept and process p...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "1793"
 tags: Stripe
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stripe/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Stripe Add 3d Secure
   x-api-slug: stripe
   description: Post 3d, Secure
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///3d_secure
   tags: 3d, Secure
@@ -26,7 +27,7 @@ apis:
 - name: Stripe Get 3d Secure Three D Secure
   x-api-slug: stripe
   description: Get 3d, Secure, Three, D, Secure
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///3d_secure/{three_d_secure}
   tags: 3d, Secure, Three, D, Secure
@@ -39,7 +40,7 @@ apis:
     created using test-mode keys can be deleted at any time. Custom accounts created
     using live-mode keys may only be deleted once all balances are zero.If you are
     looking to close your own account, use the data tab in your account settings instead.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account
   tags: Account
@@ -49,7 +50,7 @@ apis:
 - name: Stripe Get Account
   x-api-slug: stripe
   description: Retrieves the details of the account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account
   tags: Account
@@ -62,7 +63,7 @@ apis:
     of the parameters passed. Any parameters not provided are left unchanged. To update
     your own account, use the Dashboard.Refer to our Connect documentation to learn
     more about updating accounts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account
   tags: Account
@@ -72,7 +73,7 @@ apis:
 - name: Stripe Add Account Bank Accounts
   x-api-slug: stripe
   description: Post Account, Bank, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/bank_accounts
   tags: Account, Bank, Accounts
@@ -82,7 +83,7 @@ apis:
 - name: Stripe Delete Account Bank Accounts
   x-api-slug: stripe
   description: Delete Account, Bank, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/bank_accounts/{id}
   tags: Account, Bank, Accounts
@@ -92,7 +93,7 @@ apis:
 - name: Stripe Get Account Bank Accounts
   x-api-slug: stripe
   description: Get Account, Bank, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/bank_accounts/{id}
   tags: Account, Bank, Accounts
@@ -105,7 +106,7 @@ apis:
     and optionally sets it as the default for its currency. Other bank account details
     are not editable by design.You can re-enable a disabled bank account by performing
     an update call without providing any arguments or changes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/bank_accounts/{id}
   tags: Account, Bank, Accounts
@@ -115,7 +116,7 @@ apis:
 - name: Stripe Get Account External Accounts
   x-api-slug: stripe
   description: Get Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/external_accounts
   tags: Account, External, Accounts
@@ -127,7 +128,7 @@ apis:
 - name: Stripe Add Account External Accounts
   x-api-slug: stripe
   description: Post Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/external_accounts
   tags: Account, External, Accounts
@@ -137,7 +138,7 @@ apis:
 - name: Stripe Delete Account External Accounts
   x-api-slug: stripe
   description: Delete Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/external_accounts/{id}
   tags: Account, External, Accounts
@@ -147,7 +148,7 @@ apis:
 - name: Stripe Get Account External Accounts
   x-api-slug: stripe
   description: Get Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/external_accounts/{id}
   tags: Account, External, Accounts
@@ -160,7 +161,7 @@ apis:
     and optionally sets it as the default for its currency. Other bank account details
     are not editable by design.You can re-enable a disabled bank account by performing
     an update call without providing any arguments or changes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/external_accounts/{id}
   tags: Account, External, Accounts
@@ -172,7 +173,7 @@ apis:
   description: Creates a single-use login link for an Express account to access their
     Stripe dashboard.You may only create login links for Express accounts connected
     to your platform.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/login_links
   tags: Account, Login, Links
@@ -184,7 +185,7 @@ apis:
   description: Invalidates all sessions for a light account, for a platform to use
     during platform logout.You may only log out Express accounts connected to your
     platform.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///account/logout
   tags: Account, Logout
@@ -195,7 +196,7 @@ apis:
   x-api-slug: stripe
   description: "Returns a list of accounts connected to your platform via Connect.
     If you\u2019re not a platform, the list is empty."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts
   tags: Accounts
@@ -205,7 +206,7 @@ apis:
 - name: Stripe Add Accounts
   x-api-slug: stripe
   description: Post Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts
   tags: Accounts
@@ -218,7 +219,7 @@ apis:
     created using test-mode keys can be deleted at any time. Custom accounts created
     using live-mode keys may only be deleted once all balances are zero.If you are
     looking to close your own account, use the data tab in your account settings instead.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}
   tags: Accounts, Account
@@ -228,7 +229,7 @@ apis:
 - name: Stripe Get Accounts Account
   x-api-slug: stripe
   description: Retrieves the details of the account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}
   tags: Accounts, Account
@@ -241,7 +242,7 @@ apis:
     of the parameters passed. Any parameters not provided are left unchanged. To update
     your own account, use the Dashboard.Refer to our Connect documentation to learn
     more about updating accounts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}
   tags: Accounts, Account
@@ -251,7 +252,7 @@ apis:
 - name: Stripe Add Accounts Account Bank Accounts
   x-api-slug: stripe
   description: Post Accounts, Account, Bank, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/bank_accounts
   tags: Accounts, Account, Bank, Accounts
@@ -261,7 +262,7 @@ apis:
 - name: Stripe Delete Accounts Account Bank Accounts
   x-api-slug: stripe
   description: Delete Accounts, Account, Bank, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/bank_accounts/{id}
   tags: Accounts, Account, Bank, Accounts
@@ -271,7 +272,7 @@ apis:
 - name: Stripe Get Accounts Account Bank Accounts
   x-api-slug: stripe
   description: Get Accounts, Account, Bank, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/bank_accounts/{id}
   tags: Accounts, Account, Bank, Accounts
@@ -284,7 +285,7 @@ apis:
     and optionally sets it as the default for its currency. Other bank account details
     are not editable by design.You can re-enable a disabled bank account by performing
     an update call without providing any arguments or changes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/bank_accounts/{id}
   tags: Accounts, Account, Bank, Accounts
@@ -294,7 +295,7 @@ apis:
 - name: Stripe Get Accounts Account External Accounts
   x-api-slug: stripe
   description: Get Accounts, Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/external_accounts
   tags: Accounts, Account, External, Accounts
@@ -304,7 +305,7 @@ apis:
 - name: Stripe Add Accounts Account External Accounts
   x-api-slug: stripe
   description: Post Accounts, Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/external_accounts
   tags: Accounts, Account, External, Accounts
@@ -314,7 +315,7 @@ apis:
 - name: Stripe Delete Accounts Account External Accounts
   x-api-slug: stripe
   description: Delete Accounts, Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/external_accounts/{id}
   tags: Accounts, Account, External, Accounts
@@ -324,7 +325,7 @@ apis:
 - name: Stripe Get Accounts Account External Accounts
   x-api-slug: stripe
   description: Get Accounts, Account, External, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/external_accounts/{id}
   tags: Accounts, Account, External, Accounts
@@ -337,7 +338,7 @@ apis:
     and optionally sets it as the default for its currency. Other bank account details
     are not editable by design.You can re-enable a disabled bank account by performing
     an update call without providing any arguments or changes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/external_accounts/{id}
   tags: Accounts, Account, External, Accounts
@@ -349,7 +350,7 @@ apis:
   description: Creates a single-use login link for an Express account to access their
     Stripe dashboard.You may only create login links for Express accounts connected
     to your platform.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/login_links
   tags: Accounts, Account, Login, Links
@@ -361,7 +362,7 @@ apis:
   description: Invalidates all sessions for a light account, for a platform to use
     during platform logout.You may only log out Express accounts connected to your
     platform.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/logout
   tags: Accounts, Account, Logout
@@ -373,7 +374,7 @@ apis:
   description: With Connect, you may flag accounts as suspicious.Test-mode Custom
     and Express accounts can be rejected at any time. Accounts created using live-mode
     keys may only be rejected once all balances are zero.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///accounts/{account}/reject
   tags: Accounts, Account, Reject
@@ -383,7 +384,7 @@ apis:
 - name: Stripe Get Apple Pay Domains
   x-api-slug: stripe
   description: Get Apple, Pay, Domains
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///apple_pay/domains
   tags: Apple, Pay, Domains
@@ -395,7 +396,7 @@ apis:
 - name: Stripe Add Apple Pay Domains
   x-api-slug: stripe
   description: Post Apple, Pay, Domains
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///apple_pay/domains
   tags: Apple, Pay, Domains
@@ -405,7 +406,7 @@ apis:
 - name: Stripe Delete Apple Pay Domains Domain
   x-api-slug: stripe
   description: Delete Apple, Pay, Domains, Domain
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///apple_pay/domains/{domain}
   tags: Apple, Pay, Domains, Domain
@@ -415,7 +416,7 @@ apis:
 - name: Stripe Get Apple Pay Domains Domain
   x-api-slug: stripe
   description: Get Apple, Pay, Domains, Domain
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///apple_pay/domains/{domain}
   tags: Apple, Pay, Domains, Domain
@@ -429,7 +430,7 @@ apis:
   description: "Returns a list of application fees you\u2019ve previously collected.
     The application fees are returned in sorted order, with the most recent fees appearing
     first."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///application_fees
   tags: Application, Fees
@@ -443,7 +444,7 @@ apis:
   description: By default, you can see the 10 most recent refunds stored directly
     on the application fee object, but you can also retrieve details about a specific
     refund stored on the application fee.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///application_fees/{fee}/refunds/{id}
   tags: Application, Fees, Fee, Refunds
@@ -457,7 +458,7 @@ apis:
   description: Updates the specified application fee refund by setting the values
     of the parameters passed. Any parameters not provided will be left unchanged.This
     request only accepts metadata as an argument.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///application_fees/{fee}/refunds/{id}
   tags: Application, Fees, Fee, Refunds
@@ -468,7 +469,7 @@ apis:
   x-api-slug: stripe
   description: Retrieves the details of an application fee that your account has collected.
     The same information is returned when refunding the application fee.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///application_fees/{id}
   tags: Application, Fees
@@ -480,7 +481,7 @@ apis:
 - name: Stripe Add Application Fees  Refund
   x-api-slug: stripe
   description: Post Application, Fees, , Refund
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///application_fees/{id}/refund
   tags: Application, Fees, , Refund
@@ -493,7 +494,7 @@ apis:
     fee. Note that the 10 most recent refunds are always available by default on the
     application fee object. If you need more than those 10, you can use this API method
     and the limit and starting_after parameters to page through additional refunds.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///application_fees/{id}/refunds
   tags: Application, Fees, , Refunds
@@ -505,7 +506,7 @@ apis:
 - name: Stripe Add Application Fees  Refunds
   x-api-slug: stripe
   description: Post Application, Fees, , Refunds
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///application_fees/{id}/refunds
   tags: Application, Fees, , Refunds
@@ -516,7 +517,7 @@ apis:
   x-api-slug: stripe
   description: Retrieves the current account balance, based on the authentication
     that was used to make the request.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///balance
   tags: Balance
@@ -530,7 +531,7 @@ apis:
   description: Returns a list of transactions that have contributed to the Stripe
     account balance (e.g., charges, transfers, and so forth). The transactions are
     returned in sorted order, with the most recent transactions appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///balance/history
   tags: Balance, History
@@ -542,7 +543,7 @@ apis:
 - name: Stripe Get Balance History
   x-api-slug: stripe
   description: Retrieves the balance transaction with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///balance/history/{id}
   tags: Balance, History
@@ -555,7 +556,7 @@ apis:
   x-api-slug: stripe
   description: Returns a list of your receivers. Receivers are returned sorted by
     creation date, with the most recently created receivers appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///bitcoin/receivers
   tags: Bitcoin, Receivers
@@ -565,7 +566,7 @@ apis:
 - name: Stripe Get Bitcoin Receivers
   x-api-slug: stripe
   description: Retrieves the Bitcoin receiver with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///bitcoin/receivers/{id}
   tags: Bitcoin, Receivers
@@ -575,7 +576,7 @@ apis:
 - name: Stripe Get Bitcoin Receivers Receiver Transactions
   x-api-slug: stripe
   description: Get Bitcoin, Receivers, Receiver, Transactions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///bitcoin/receivers/{receiver}/transactions
   tags: Bitcoin, Receivers, Receiver, Transactions
@@ -587,7 +588,7 @@ apis:
 - name: Stripe Get Bitcoin Transactions
   x-api-slug: stripe
   description: Get Bitcoin, Transactions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///bitcoin/transactions
   tags: Bitcoin, Transactions
@@ -600,7 +601,7 @@ apis:
   x-api-slug: stripe
   description: "Returns a list of charges you\u2019ve previously created. The charges
     are returned in sorted order, with the most recent charges appearing first."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges
   tags: Charges
@@ -612,7 +613,7 @@ apis:
 - name: Stripe Add Charges
   x-api-slug: stripe
   description: Post Charges
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges
   tags: Charges
@@ -625,7 +626,7 @@ apis:
     Supply the unique charge ID that was returned from your previous request, and
     Stripe will return the corresponding charge information. The same information
     is returned when creating or refunding the charge.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}
   tags: Charges, Charge
@@ -640,7 +641,7 @@ apis:
     passed. Any parameters not provided will be left unchanged.This request accepts
     only the customer, description, fraud_details, metadata, receipt_email, and shipping
     arguments.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}
   tags: Charges, Charge
@@ -654,7 +655,7 @@ apis:
     the capture option set to false.Uncaptured payments expire exactly seven days
     after they are created. If they are not captured by that point in time, they will
     be marked as refunded and will no longer be capturable.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/capture
   tags: Charges, Charge, Capture
@@ -664,7 +665,7 @@ apis:
 - name: Stripe Get Charges Charge Dispute
   x-api-slug: stripe
   description: Get Charges, Charge, Dispute
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/dispute
   tags: Charges, Charge, Dispute
@@ -676,7 +677,7 @@ apis:
 - name: Stripe Add Charges Charge Dispute
   x-api-slug: stripe
   description: Post Charges, Charge, Dispute
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/dispute
   tags: Charges, Charge, Dispute
@@ -686,7 +687,7 @@ apis:
 - name: Stripe Add Charges Charge Dispute Close
   x-api-slug: stripe
   description: Post Charges, Charge, Dispute, Close
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/dispute/close
   tags: Charges, Charge, Dispute, Close
@@ -696,7 +697,7 @@ apis:
 - name: Stripe Add Charges Charge Refund
   x-api-slug: stripe
   description: Post Charges, Charge, Refund
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/refund
   tags: Charges, Charge, Refund
@@ -709,7 +710,7 @@ apis:
     that the 10 most recent refunds are always available by default on the charge
     object. If you need more than those 10, you can use this API method and the limit
     and starting_after parameters to page through additional refunds.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/refunds
   tags: Charges, Charge, Refunds
@@ -721,7 +722,7 @@ apis:
 - name: Stripe Add Charges Charge Refunds
   x-api-slug: stripe
   description: Post Charges, Charge, Refunds
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/refunds
   tags: Charges, Charge, Refunds
@@ -731,7 +732,7 @@ apis:
 - name: Stripe Get Charges Charge Refunds Refund
   x-api-slug: stripe
   description: Get Charges, Charge, Refunds, Refund
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/refunds/{refund}
   tags: Charges, Charge, Refunds, Refund
@@ -743,7 +744,7 @@ apis:
 - name: Stripe Add Charges Charge Refunds Refund
   x-api-slug: stripe
   description: Post Charges, Charge, Refunds, Refund
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///charges/{charge}/refunds/{refund}
   tags: Charges, Charge, Refunds, Refund
@@ -753,7 +754,7 @@ apis:
 - name: Stripe Get Country Specs
   x-api-slug: stripe
   description: Lists all Country Spec objects available in the API.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///country_specs
   tags: Country, Specs
@@ -763,7 +764,7 @@ apis:
 - name: Stripe Get Country Specs Country
   x-api-slug: stripe
   description: Returns a Country Spec for a given Country code.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///country_specs/{country}
   tags: Country, Specs, Country
@@ -773,7 +774,7 @@ apis:
 - name: Stripe Get Coupons
   x-api-slug: stripe
   description: Returns a list of your coupons.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///coupons
   tags: Coupons
@@ -792,7 +793,7 @@ apis:
     of 0 if a coupon with an amount_off of 200 is applied to it and an invoice with
     a subtotal of 300 will have a final total of 100 if a coupon with an amount_off
     of 200 is applied to it."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///coupons
   tags: Coupons
@@ -805,7 +806,7 @@ apis:
     dashboard. However, deleting a coupon does not affect any customers who have already
     applied the coupon; it means that new customers can\u2019t redeem the coupon.
     You can also delete coupons via the API."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///coupons/{coupon}
   tags: Coupons, Coupon
@@ -815,7 +816,7 @@ apis:
 - name: Stripe Get Coupons Coupon
   x-api-slug: stripe
   description: Retrieves the coupon with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///coupons/{coupon}
   tags: Coupons, Coupon
@@ -828,7 +829,7 @@ apis:
   x-api-slug: stripe
   description: Updates the metadata of a coupon. Other coupon details (currency, duration,
     amount_off) are, by design, not editable.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///coupons/{coupon}
   tags: Coupons, Coupon
@@ -839,7 +840,7 @@ apis:
   x-api-slug: stripe
   description: Returns a list of your customers. The customers are returned sorted
     by creation date, with the most recent customers appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers
   tags: Customers
@@ -851,7 +852,7 @@ apis:
 - name: Stripe Add Customers
   x-api-slug: stripe
   description: Creates a new customer object.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers
   tags: Customers
@@ -862,7 +863,7 @@ apis:
   x-api-slug: stripe
   description: Permanently deletes a customer. It cannot be undone. Also immediately
     cancels any active subscriptions on the customer.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}
   tags: Customers, Customer
@@ -873,7 +874,7 @@ apis:
   x-api-slug: stripe
   description: Retrieves the details of an existing customer. You need only supply
     the unique customer identifier that was returned upon customer creation.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}
   tags: Customers, Customer
@@ -885,7 +886,7 @@ apis:
 - name: Stripe Add Customers Customer
   x-api-slug: stripe
   description: Post Customers, Customer
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}
   tags: Customers, Customer
@@ -898,7 +899,7 @@ apis:
     that the 10 most recent sources are always available by default on the Customer.
     If you need more than those 10, you can use this API method and the limit and
     starting_after parameters to page through additional bank accounts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/bank_accounts
   tags: Customers, Customer, Bank, Accounts
@@ -910,7 +911,7 @@ apis:
 - name: Stripe Add Customers Customer Bank Accounts
   x-api-slug: stripe
   description: Post Customers, Customer, Bank, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/bank_accounts
   tags: Customers, Customer, Bank, Accounts
@@ -920,7 +921,7 @@ apis:
 - name: Stripe Delete Customers Customer Bank Accounts
   x-api-slug: stripe
   description: Delete Customers, Customer, Bank, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/bank_accounts/{id}
   tags: Customers, Customer, Bank, Accounts
@@ -932,7 +933,7 @@ apis:
   description: By default, you can see the 10 most recent sources stored on a Customer
     directly on the object, but you can also retrieve details about a specific bank
     account stored on the Stripe account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/bank_accounts/{id}
   tags: Customers, Customer, Bank, Accounts
@@ -944,7 +945,7 @@ apis:
 - name: Stripe Add Customers Customer Bank Accounts
   x-api-slug: stripe
   description: Post Customers, Customer, Bank, Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/bank_accounts/{id}
   tags: Customers, Customer, Bank, Accounts
@@ -954,7 +955,7 @@ apis:
 - name: Stripe Add Customers Customer Bank Accounts  Verify
   x-api-slug: stripe
   description: Post Customers, Customer, Bank, Accounts, , Verify
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/bank_accounts/{id}/verify
   tags: Customers, Customer, Bank, Accounts, , Verify
@@ -964,7 +965,7 @@ apis:
 - name: Stripe Get Customers Customer Cards
   x-api-slug: stripe
   description: Get Customers, Customer, Cards
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/cards
   tags: Customers, Customer, Cards
@@ -976,7 +977,7 @@ apis:
 - name: Stripe Add Customers Customer Cards
   x-api-slug: stripe
   description: Post Customers, Customer, Cards
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/cards
   tags: Customers, Customer, Cards
@@ -986,7 +987,7 @@ apis:
 - name: Stripe Delete Customers Customer Cards
   x-api-slug: stripe
   description: Delete Customers, Customer, Cards
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/cards/{id}
   tags: Customers, Customer, Cards
@@ -996,7 +997,7 @@ apis:
 - name: Stripe Get Customers Customer Cards
   x-api-slug: stripe
   description: Get Customers, Customer, Cards
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/cards/{id}
   tags: Customers, Customer, Cards
@@ -1008,7 +1009,7 @@ apis:
 - name: Stripe Add Customers Customer Cards
   x-api-slug: stripe
   description: Post Customers, Customer, Cards
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/cards/{id}
   tags: Customers, Customer, Cards
@@ -1018,7 +1019,7 @@ apis:
 - name: Stripe Delete Customers Customer Discount
   x-api-slug: stripe
   description: Removes the currently applied discount on a customer.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/discount
   tags: Customers, Customer, Discount
@@ -1028,7 +1029,7 @@ apis:
 - name: Stripe Get Customers Customer Discount
   x-api-slug: stripe
   description: Get Customers, Customer, Discount
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/discount
   tags: Customers, Customer, Discount
@@ -1040,7 +1041,7 @@ apis:
 - name: Stripe Get Customers Customer Sources
   x-api-slug: stripe
   description: Get Customers, Customer, Sources
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/sources
   tags: Customers, Customer, Sources
@@ -1052,7 +1053,7 @@ apis:
 - name: Stripe Add Customers Customer Sources
   x-api-slug: stripe
   description: Post Customers, Customer, Sources
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/sources
   tags: Customers, Customer, Sources
@@ -1062,7 +1063,7 @@ apis:
 - name: Stripe Delete Customers Customer Sources
   x-api-slug: stripe
   description: Delete Customers, Customer, Sources
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/sources/{id}
   tags: Customers, Customer, Sources
@@ -1072,7 +1073,7 @@ apis:
 - name: Stripe Get Customers Customer Sources
   x-api-slug: stripe
   description: Get Customers, Customer, Sources
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/sources/{id}
   tags: Customers, Customer, Sources
@@ -1084,7 +1085,7 @@ apis:
 - name: Stripe Add Customers Customer Sources
   x-api-slug: stripe
   description: Post Customers, Customer, Sources
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/sources/{id}
   tags: Customers, Customer, Sources
@@ -1094,7 +1095,7 @@ apis:
 - name: Stripe Add Customers Customer Sources  Verify
   x-api-slug: stripe
   description: Post Customers, Customer, Sources, , Verify
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/sources/{id}/verify
   tags: Customers, Customer, Sources, , Verify
@@ -1107,7 +1108,7 @@ apis:
     that the 10 most recent active subscriptions are always available by default on
     the customer object. If you need more than those 10, you can use the limit and
     starting_after parameters to page through additional subscriptions."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/subscriptions
   tags: Customers, Customer, Subscriptions
@@ -1119,7 +1120,7 @@ apis:
 - name: Stripe Add Customers Customer Subscriptions
   x-api-slug: stripe
   description: Creates a new subscription on an existing customer.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/subscriptions
   tags: Customers, Customer, Subscriptions
@@ -1143,7 +1144,7 @@ apis:
     manually after subscription cancellation to have us proceed with payment collection,
     or you could even re-attempt payment yourself on all unpaid invoices before allowing
     the customer to cancel the subscription at all."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/subscriptions/{subscription_exposed_id}
   tags: Customers, Customer, Subscriptions, Subscription, Exposed
@@ -1153,7 +1154,7 @@ apis:
 - name: Stripe Get Customers Customer Subscriptions Subscription Exposed
   x-api-slug: stripe
   description: Get Customers, Customer, Subscriptions, Subscription, Exposed
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/subscriptions/{subscription_exposed_id}
   tags: Customers, Customer, Subscriptions, Subscription, Exposed
@@ -1168,7 +1169,7 @@ apis:
     parameters. When changing plans or quantities, we will optionally prorate the
     price we charge next month to make up for any price changes. To preview how the
     proration will be calculated, use the upcoming invoice endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/subscriptions/{subscription_exposed_id}
   tags: Customers, Customer, Subscriptions, Subscription, Exposed
@@ -1179,7 +1180,7 @@ apis:
   x-api-slug: stripe
   description: Delete Customers, Customer, Subscriptions, Subscription, Exposed, ,
     Discount
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/subscriptions/{subscription_exposed_id}/discount
   tags: Customers, Customer, Subscriptions, Subscription, Exposed, , Discount
@@ -1189,7 +1190,7 @@ apis:
 - name: Stripe Get Customers Customer Subscriptions Subscription Exposed  Discount
   x-api-slug: stripe
   description: Get Customers, Customer, Subscriptions, Subscription, Exposed, , Discount
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///customers/{customer}/subscriptions/{subscription_exposed_id}/discount
   tags: Customers, Customer, Subscriptions, Subscription, Exposed, , Discount
@@ -1201,7 +1202,7 @@ apis:
 - name: Stripe Get Disputes
   x-api-slug: stripe
   description: Returns a list of your disputes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///disputes
   tags: Disputes
@@ -1213,7 +1214,7 @@ apis:
 - name: Stripe Get Disputes Dispute
   x-api-slug: stripe
   description: Retrieves the dispute with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///disputes/{dispute}
   tags: Disputes, Dispute
@@ -1231,7 +1232,7 @@ apis:
     on your dispute type, different evidence fields will give you a better chance
     of winning your dispute. You may want to consult our guide to dispute types to
     help you figure out which evidence fields to provide."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///disputes/{dispute}
   tags: Disputes, Dispute
@@ -1244,7 +1245,7 @@ apis:
     evidence to submit and are essentially \u2018dismissing\u2019 the dispute, acknowledging
     it as lostThe status of the dispute will change from needs_response to lost. Closing
     a dispute is irreversible."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///disputes/{dispute}/close
   tags: Disputes, Dispute, Close
@@ -1254,7 +1255,7 @@ apis:
 - name: Stripe Add Ephemeral Keys
   x-api-slug: stripe
   description: Creates a short-lived API key for a given resource.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///ephemeral_keys
   tags: Ephemeral, Keys
@@ -1264,7 +1265,7 @@ apis:
 - name: Stripe Delete Ephemeral Keys Key
   x-api-slug: stripe
   description: Invalidates a short-lived API key for a given resource.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///ephemeral_keys/{key}
   tags: Ephemeral, Keys, Key
@@ -1274,7 +1275,7 @@ apis:
 - name: Stripe Get Events
   x-api-slug: stripe
   description: List events, going back up to 30 days.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///events
   tags: Events
@@ -1287,7 +1288,7 @@ apis:
   x-api-slug: stripe
   description: Retrieves the details of an event. Supply the unique identifier of
     the event, which you might have received in a webhook.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///events/{id}
   tags: Events
@@ -1299,7 +1300,7 @@ apis:
 - name: Stripe Add Events  Retry
   x-api-slug: stripe
   description: Resend an event. This only works in testmode
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///events/{id}/retry
   tags: Events, , Retry
@@ -1310,7 +1311,7 @@ apis:
   x-api-slug: stripe
   description: Returns a list of objects that contain the rates at which foreign currencies
     are converted to one another. Only shows the currencies for which Stripe supports.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///exchange_rates
   tags: Exchange, Rates
@@ -1323,7 +1324,7 @@ apis:
   x-api-slug: stripe
   description: Retrieves the exchange rates from the given currency to every supported
     currency.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///exchange_rates/{currency}
   tags: Exchange, Rates, Currency
@@ -1336,7 +1337,7 @@ apis:
   x-api-slug: stripe
   description: Returns a list of your invoice items. Invoice items are returned sorted
     by creation date, with the most recently created invoice items appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoiceitems
   tags: Invoiceitems
@@ -1347,7 +1348,7 @@ apis:
   x-api-slug: stripe
   description: "Adds an arbitrary charge or credit to the customer\u2019s upcoming
     invoice."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoiceitems
   tags: Invoiceitems
@@ -1358,7 +1359,7 @@ apis:
   x-api-slug: stripe
   description: "Removes an invoice item from the upcoming invoice. Removing an invoice
     item is only possible before the invoice it\u2019s attached to is closed."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoiceitems/{invoiceitem}
   tags: Invoiceitems, Invoiceitem
@@ -1368,7 +1369,7 @@ apis:
 - name: Stripe Get Invoiceitems Invoiceitem
   x-api-slug: stripe
   description: Retrieves the invoice item with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoiceitems/{invoiceitem}
   tags: Invoiceitems, Invoiceitem
@@ -1380,7 +1381,7 @@ apis:
   description: "Updates the amount or description of an invoice item on an upcoming
     invoice. Updating an invoice item is only possible before the invoice it\u2019s
     attached to is closed."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoiceitems/{invoiceitem}
   tags: Invoiceitems, Invoiceitem
@@ -1392,7 +1393,7 @@ apis:
   description: You can list all invoices, or list the invoices for a specific customer.
     The invoices are returned sorted by creation date, with the most recently created
     invoices appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoices
   tags: Invoices
@@ -1408,7 +1409,7 @@ apis:
     The customer\u2019s billing cycle and regular subscription won\u2019t be affected.Once
     you create the invoice, Stripe will attempt to collect payment according to your
     subscriptions settings, though you can choose to pay it right away."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoices
   tags: Invoices
@@ -1433,7 +1434,7 @@ apis:
     returned on the upcoming invoice resource. The recommended way to get only the
     prorations being previewed is to consider only proration line items where period[start]
     is equal to the subscription_proration_date on the upcoming invoice resource."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoices/upcoming
   tags: Invoices, Upcoming
@@ -1445,7 +1446,7 @@ apis:
 - name: Stripe Get Invoices Invoice
   x-api-slug: stripe
   description: Retrieves the invoice with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoices/{invoice}
   tags: Invoices, Invoice
@@ -1460,7 +1461,7 @@ apis:
     you\u2019d like to stop Stripe from attempting to collect payment on an invoice
     or would simply like to close the invoice out as no longer owed by the customer,
     you can update the closed parameter."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoices/{invoice}
   tags: Invoices, Invoice
@@ -1472,7 +1473,7 @@ apis:
   description: "When retrieving an invoice, you\u2019ll get a lines property containing
     the total count of line items and the first handful of those items. There is also
     a URL where you can retrieve the full (paginated) list of line items."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoices/{invoice}/lines
   tags: Invoices, Invoice, Lines
@@ -1487,7 +1488,7 @@ apis:
     on invoices for customers on subscriptions according to your subscriptions settings.
     However, if you\u2019d like to attempt payment on an invoice out of the normal
     collection schedule or for some other reason, you can do so."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///invoices/{invoice}/pay
   tags: Invoices, Invoice, Pay
@@ -1498,7 +1499,7 @@ apis:
   x-api-slug: stripe
   description: Returns a list of your order returns. The returns are returned sorted
     by creation date, with the most recently created return appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///order_returns
   tags: Order, Returns
@@ -1512,7 +1513,7 @@ apis:
   description: Retrieves the details of an existing order return. Supply the unique
     order ID from either an order return creation request or the order return list,
     and Stripe will return the corresponding order information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///order_returns/{id}
   tags: Order, Returns
@@ -1525,7 +1526,7 @@ apis:
   x-api-slug: stripe
   description: Returns a list of your orders. The orders are returned sorted by creation
     date, with the most recently created orders appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///orders
   tags: Orders
@@ -1537,7 +1538,7 @@ apis:
 - name: Stripe Add Orders
   x-api-slug: stripe
   description: Post Orders
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///orders
   tags: Orders
@@ -1549,7 +1550,7 @@ apis:
   description: Retrieves the details of an existing order. Supply the unique order
     ID from either an order creation request or the order list, and Stripe will return
     the corresponding order information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///orders/{id}
   tags: Orders
@@ -1563,7 +1564,7 @@ apis:
   description: Updates the specific order by setting the values of the parameters
     passed. Any parameters not provided will be left unchanged. This request accepts
     only the metadata, and status as arguments.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///orders/{id}
   tags: Orders
@@ -1573,7 +1574,7 @@ apis:
 - name: Stripe Add Orders  Pay
   x-api-slug: stripe
   description: Post Orders, , Pay
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///orders/{id}/pay
   tags: Orders, , Pay
@@ -1586,7 +1587,7 @@ apis:
     or fulfilled before it can be returned. Once all items have been returned, the
     order will become canceled or returned depending on which status the order started
     in.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///orders/{id}/returns
   tags: Orders, , Returns
@@ -1596,7 +1597,7 @@ apis:
 - name: Stripe Get Payments
   x-api-slug: stripe
   description: Get Payments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///payments
   tags: Payments
@@ -1608,7 +1609,7 @@ apis:
 - name: Stripe Add Payments
   x-api-slug: stripe
   description: Post Payments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///payments
   tags: Payments
@@ -1618,7 +1619,7 @@ apis:
 - name: Stripe Get Payments Payment
   x-api-slug: stripe
   description: Get Payments, Payment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///payments/{payment}
   tags: Payments, Payment
@@ -1632,7 +1633,7 @@ apis:
   description: Returns a list of existing payouts sent to third-party bank accounts
     or that Stripe has sent you. The payouts are returned in sorted order, with the
     most recently created payouts appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///payouts
   tags: Payouts
@@ -1649,7 +1650,7 @@ apis:
     source types, you\u2019ll need to specify the source type balance that the payout
     should draw from. The balance object details available and pending amounts by
     source type."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///payouts
   tags: Payouts
@@ -1661,7 +1662,7 @@ apis:
   description: Retrieves the details of an existing payout. Supply the unique payout
     ID from either a payout creation request or the payout list, and Stripe will return
     the corresponding payout information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///payouts/{payout}
   tags: Payouts, Payout
@@ -1673,7 +1674,7 @@ apis:
   description: Updates the specified payout by setting the values of the parameters
     passed. Any parameters not provided will be left unchanged. This request accepts
     only the metadata as arguments.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///payouts/{payout}
   tags: Payouts, Payout
@@ -1686,7 +1687,7 @@ apis:
     paid out. Funds will be refunded to your available balance, and the fees you were
     originally charged on the payout will be refunded. You may not cancel automatic
     Stripe payouts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///payouts/{payout}/cancel
   tags: Payouts, Payout, Cancel
@@ -1696,7 +1697,7 @@ apis:
 - name: Stripe Get Plans
   x-api-slug: stripe
   description: Returns a list of your plans.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///plans
   tags: Plans
@@ -1708,7 +1709,7 @@ apis:
 - name: Stripe Add Plans
   x-api-slug: stripe
   description: You can create plans using the API, or in the Stripe Dashboard.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///plans
   tags: Plans
@@ -1720,7 +1721,7 @@ apis:
   description: "You can delete plans using the API, or in the Stripe Dashboard. Deleting
     plans means new subscribers can\u2019t be added. Existing subscribers aren\u2019t
     affected."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///plans/{plan}
   tags: Plans, Plan
@@ -1730,7 +1731,7 @@ apis:
 - name: Stripe Get Plans Plan
   x-api-slug: stripe
   description: Retrieves the plan with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///plans/{plan}
   tags: Plans, Plan
@@ -1744,7 +1745,7 @@ apis:
   description: "Updates the specified plan by setting the values of the parameters
     passed. Any parameters not provided are left unchanged. By design, you cannot
     change a plan\u2019s ID, amount, currency, or billing cycle."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///plans/{plan}
   tags: Plans, Plan
@@ -1755,7 +1756,7 @@ apis:
   x-api-slug: stripe
   description: Returns a list of your products. The products are returned sorted by
     creation date, with the most recently created products appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///products
   tags: Products
@@ -1767,7 +1768,7 @@ apis:
 - name: Stripe Add Products
   x-api-slug: stripe
   description: Creates a new product object.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///products
   tags: Products
@@ -1778,7 +1779,7 @@ apis:
   x-api-slug: stripe
   description: Delete a product. Deleting a product is only possible if it has no
     SKUs associated with it.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///products/{id}
   tags: Products
@@ -1790,7 +1791,7 @@ apis:
   description: Retrieves the details of an existing product. Supply the unique product
     ID from either a product creation request or the product list, and Stripe will
     return the corresponding product information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///products/{id}
   tags: Products
@@ -1805,7 +1806,7 @@ apis:
     passed. Any parameters not provided will be left unchanged.Note that a product\u2019s
     attributes are not editable. Instead, you would need to deactivate the existing
     product and create a new one with the new attribute values."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///products/{id}
   tags: Products
@@ -1816,7 +1817,7 @@ apis:
   x-api-slug: stripe
   description: Returns a list of your recipients. The recipients are returned sorted
     by creation date, with the most recently created recipients appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///recipients
   tags: Recipients
@@ -1828,7 +1829,7 @@ apis:
 - name: Stripe Add Recipients
   x-api-slug: stripe
   description: Post Recipients
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///recipients
   tags: Recipients
@@ -1838,7 +1839,7 @@ apis:
 - name: Stripe Delete Recipients
   x-api-slug: stripe
   description: Permanently deletes a recipient. It cannot be undone.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///recipients/{id}
   tags: Recipients
@@ -1849,7 +1850,7 @@ apis:
   x-api-slug: stripe
   description: Retrieves the details of an existing recipient. You need only supply
     the unique recipient identifier that was returned upon recipient creation.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///recipients/{id}
   tags: Recipients
@@ -1861,7 +1862,7 @@ apis:
 - name: Stripe Add Recipients
   x-api-slug: stripe
   description: Post Recipients
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///recipients/{id}
   tags: Recipients
@@ -1874,7 +1875,7 @@ apis:
     refunds are returned in sorted order, with the most recent refunds appearing first.
     For convenience, the 10 most recent refunds are always available by default on
     the charge object."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///refunds
   tags: Refunds
@@ -1886,7 +1887,7 @@ apis:
 - name: Stripe Add Refunds
   x-api-slug: stripe
   description: Post Refunds
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///refunds
   tags: Refunds
@@ -1896,7 +1897,7 @@ apis:
 - name: Stripe Get Refunds Refund
   x-api-slug: stripe
   description: Retrieves the details of an existing refund.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///refunds/{refund}
   tags: Refunds, Refund
@@ -1910,7 +1911,7 @@ apis:
   description: Updates the specified refund by setting the values of the parameters
     passed. Any parameters not provided will be left unchanged.This request only accepts
     metadata as an argument.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///refunds/{refund}
   tags: Refunds, Refund
@@ -1921,7 +1922,7 @@ apis:
   x-api-slug: stripe
   description: Returns a list of your SKUs. The SKUs are returned sorted by creation
     date, with the most recently created SKUs appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///skus
   tags: Skus
@@ -1931,7 +1932,7 @@ apis:
 - name: Stripe Add Skus
   x-api-slug: stripe
   description: Creates a new SKU associated with a product.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///skus
   tags: Skus
@@ -1942,7 +1943,7 @@ apis:
   x-api-slug: stripe
   description: Delete a SKU. Deleting a SKU is only possible until it has been used
     in an order.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///skus/{id}
   tags: Skus
@@ -1954,7 +1955,7 @@ apis:
   description: Retrieves the details of an existing SKU. Supply the unique SKU identifier
     from either a SKU creation request or from the product, and Stripe will return
     the corresponding SKU information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///skus/{id}
   tags: Skus
@@ -1967,7 +1968,7 @@ apis:
     Any parameters not provided will be left unchanged.Note that a SKU\u2019s attributes
     are not editable. Instead, you would need to deactivate the existing SKU and create
     a new one with the new attribute values."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///skus/{id}
   tags: Skus
@@ -1977,7 +1978,7 @@ apis:
 - name: Stripe Add Sources
   x-api-slug: stripe
   description: Creates a new source object.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///sources
   tags: Sources
@@ -1989,7 +1990,7 @@ apis:
   description: Retrieves an existing source object. Supply the unique source ID from
     a source creation request and Stripe will return the corresponding up-to-date
     source object information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///sources/{source}
   tags: Sources, Source
@@ -2005,7 +2006,7 @@ apis:
     the metadata and owner as arguments. It is also possible to update type specific
     information for selected payment methods. Please refer to our payment method guides
     for more detail.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///sources/{source}
   tags: Sources, Source
@@ -2015,7 +2016,7 @@ apis:
 - name: Stripe Get Sources Source Mandate Notifications Mandate Notification
   x-api-slug: stripe
   description: Get Sources, Source, Mandate, Notifications, Mandate, Notification
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///sources/{source}/mandate_notifications/{mandate_notification}
   tags: Sources, Source, Mandate, Notifications, Mandate, Notification
@@ -2027,7 +2028,7 @@ apis:
 - name: Stripe Get Sources Source Source Transactions
   x-api-slug: stripe
   description: Get Sources, Source, Source, Transactions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///sources/{source}/source_transactions
   tags: Sources, Source, Source, Transactions
@@ -2041,7 +2042,7 @@ apis:
   description: Retrieve an existing source transaction object. Supply the unique source
     ID from a source creation request and the source transaction ID and Stripe will
     return the corresponding up-to-date source object information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///sources/{source}/source_transactions/{source_transaction}
   tags: Sources, Source, Source, Transactions, Source, Transaction
@@ -2053,7 +2054,7 @@ apis:
 - name: Stripe Add Sources Source Verify
   x-api-slug: stripe
   description: Post Sources, Source, Verify
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///sources/{source}/verify
   tags: Sources, Source, Verify
@@ -2063,7 +2064,7 @@ apis:
 - name: Stripe Get Subscription Items
   x-api-slug: stripe
   description: Returns a list of your subscription items for a given subscription.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscription_items
   tags: Subscription, Items
@@ -2074,7 +2075,7 @@ apis:
   x-api-slug: stripe
   description: Adds a new item to an existing subscription. No existing items will
     be changed or replaced.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscription_items
   tags: Subscription, Items
@@ -2085,7 +2086,7 @@ apis:
   x-api-slug: stripe
   description: Deletes an item from the subscription. Removing a subscription item
     from a subscription will not cancel the subscription.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscription_items/{item}
   tags: Subscription, Items, Item
@@ -2095,7 +2096,7 @@ apis:
 - name: Stripe Get Subscription Items Item
   x-api-slug: stripe
   description: Retrieves the invoice item with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscription_items/{item}
   tags: Subscription, Items, Item
@@ -2105,7 +2106,7 @@ apis:
 - name: Stripe Add Subscription Items Item
   x-api-slug: stripe
   description: Updates the plan or quantity of an item on a current subscription.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscription_items/{item}
   tags: Subscription, Items, Item
@@ -2116,7 +2117,7 @@ apis:
   x-api-slug: stripe
   description: By default, returns a list of subscriptions that have not been canceled.
     In order to list canceled subscriptions, specify status=canceled.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscriptions
   tags: Subscriptions
@@ -2126,7 +2127,7 @@ apis:
 - name: Stripe Add Subscriptions
   x-api-slug: stripe
   description: Creates a new subscription on an existing customer.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscriptions
   tags: Subscriptions
@@ -2150,7 +2151,7 @@ apis:
     manually after subscription cancellation to have us proceed with payment collection,
     or you could even re-attempt payment yourself on all unpaid invoices before allowing
     the customer to cancel the subscription at all."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscriptions/{subscription_exposed_id}
   tags: Subscriptions, Subscription, Exposed
@@ -2160,7 +2161,7 @@ apis:
 - name: Stripe Get Subscriptions Subscription Exposed
   x-api-slug: stripe
   description: Retrieves the subscription with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscriptions/{subscription_exposed_id}
   tags: Subscriptions, Subscription, Exposed
@@ -2173,7 +2174,7 @@ apis:
     parameters. When changing plans or quantities, we will optionally prorate the
     price we charge next month to make up for any price changes. To preview how the
     proration will be calculated, use the upcoming invoice endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscriptions/{subscription_exposed_id}
   tags: Subscriptions, Subscription, Exposed
@@ -2183,7 +2184,7 @@ apis:
 - name: Stripe Delete Subscriptions Subscription Exposed  Discount
   x-api-slug: stripe
   description: Delete Subscriptions, Subscription, Exposed, , Discount
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///subscriptions/{subscription_exposed_id}/discount
   tags: Subscriptions, Subscription, Exposed, , Discount
@@ -2193,7 +2194,7 @@ apis:
 - name: Stripe Add Tokens
   x-api-slug: stripe
   description: Post Tokens
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///tokens
   tags: Tokens
@@ -2203,7 +2204,7 @@ apis:
 - name: Stripe Get Tokens Token
   x-api-slug: stripe
   description: Retrieves the token with the given ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///tokens/{token}
   tags: Tokens, Token
@@ -2215,7 +2216,7 @@ apis:
   description: Returns a list of existing transfers sent to connected accounts. The
     transfers are returned in sorted order, with the most recently created transfers
     appearing first.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///transfers
   tags: Transfers
@@ -2227,7 +2228,7 @@ apis:
 - name: Stripe Add Transfers
   x-api-slug: stripe
   description: Post Transfers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///transfers
   tags: Transfers
@@ -2240,7 +2241,7 @@ apis:
     Note that the 10 most recent reversals are always available by default on the
     transfer object. If you need more than those 10, you can use this API method and
     the limit and starting_after parameters to page through additional reversals.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///transfers/{id}/reversals
   tags: Transfers, , Reversals
@@ -2252,7 +2253,7 @@ apis:
 - name: Stripe Add Transfers  Reversals
   x-api-slug: stripe
   description: Post Transfers, , Reversals
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///transfers/{id}/reversals
   tags: Transfers, , Reversals
@@ -2264,7 +2265,7 @@ apis:
   description: Retrieves the details of an existing transfer. Supply the unique transfer
     ID from either a transfer creation request or the transfer list, and Stripe will
     return the corresponding transfer information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///transfers/{transfer}
   tags: Transfers, Transfer
@@ -2276,7 +2277,7 @@ apis:
 - name: Stripe Add Transfers Transfer
   x-api-slug: stripe
   description: Post Transfers, Transfer
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///transfers/{transfer}
   tags: Transfers, Transfer
@@ -2288,7 +2289,7 @@ apis:
   description: By default, you can see the 10 most recent reversals stored directly
     on the transfer object, but you can also retrieve details about a specific reversal
     stored on the transfer.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///transfers/{transfer}/reversals/{id}
   tags: Transfers, Transfer, Reversals
@@ -2302,7 +2303,7 @@ apis:
   description: Updates the specified reversal by setting the values of the parameters
     passed. Any parameters not provided will be left unchanged.This request only accepts
     metadata and description as arguments.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1///transfers/{transfer}/reversals/{id}
   tags: Transfers, Transfer, Reversals
@@ -2312,7 +2313,7 @@ apis:
 - name: Stripe
   x-api-slug: stripe
   description: Web and mobile payments, built for developers.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Stripe
@@ -2330,6 +2331,22 @@ x-common:
   url: https://stripe.com/docs/upgrades
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/stripe
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/stripe
+- type: x-email
+  url: info@stripe.com
+- type: x-email
+  url: privacy@stripe.com
+- type: x-email
+  url: atlas@stripe.com
+- type: x-email
+  url: notices@stripe.com
+- type: x-email
+  url: jane.diaz@stripe.com
+- type: x-email
+  url: nonprofit@stripe.com
+- type: x-email
+  url: support@stripe.com
 - type: x-github
   url: https://github.com/stripe
 - type: x-pricing
@@ -2338,6 +2355,8 @@ x-common:
   url: https://twitter.com/stripe
 - type: x-website
   url: https://stripe.com/
+- type: x-website
+  url: http://stripe.com
 include: []
 maintainers:
 - FN: Kin Lane
