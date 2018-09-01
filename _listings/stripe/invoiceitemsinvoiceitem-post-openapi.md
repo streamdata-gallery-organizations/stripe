@@ -4,9 +4,9 @@ x-collection-name: Stripe
 x-complete: 0
 info:
   title: Stripe Add Invoiceitems Invoiceitem
-  description: "Updates the amount or description of an invoice item on an upcoming
-    invoice. Updating an invoice item is only possible before the invoice it\u2019s
-    attached to is closed."
+  description: Updates the amount or description of an invoice item on an upcoming
+    invoice. Updating an invoice item is only possible before the invoice it???s attached
+    to is closed.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
@@ -994,8 +994,8 @@ paths:
   /accounts:
     get:
       summary: Get Accounts
-      description: "Returns a list of accounts connected to your platform via Connect.
-        If you\u2019re not a platform, the list is empty."
+      description: Returns a list of accounts connected to your platform via Connect.
+        If you???re not a platform, the list is empty.
       operationId: getAccounts
       x-api-path-slug: accounts-get
       parameters:
@@ -2318,9 +2318,9 @@ paths:
   /application_fees:
     get:
       summary: Get Application Fees
-      description: "Returns a list of application fees you\u2019ve previously collected.
+      description: Returns a list of application fees you???ve previously collected.
         The application fees are returned in sorted order, with the most recent fees
-        appearing first."
+        appearing first.
       operationId: getApplicationFees
       x-api-path-slug: application-fees-get
       parameters:
@@ -3261,9 +3261,8 @@ paths:
   /charges:
     get:
       summary: Get Charges
-      description: "Returns a list of charges you\u2019ve previously created. The
-        charges are returned in sorted order, with the most recent charges appearing
-        first."
+      description: Returns a list of charges you???ve previously created. The charges
+        are returned in sorted order, with the most recent charges appearing first.
       operationId: getCharges
       x-api-path-slug: charges-get
       parameters:
@@ -4274,14 +4273,14 @@ paths:
       - Coupons
     post:
       summary: Add Coupons
-      description: "You can create coupons easily via the coupon management page of
+      description: You can create coupons easily via the coupon management page of
         the Stripe dashboard. Coupon creation is also accessible via the API if you
         need to create coupons on the fly.A coupon has either a percent_off or an
         amount_off and currency. If you set an amount_off, that amount will be subtracted
-        from any invoice\u2019s subtotal. For example, an invoice with a subtotal
-        of 100 will have a final total of 0 if a coupon with an amount_off of 200
-        is applied to it and an invoice with a subtotal of 300 will have a final total
-        of 100 if a coupon with an amount_off of 200 is applied to it."
+        from any invoice???s subtotal. For example, an invoice with a subtotal of
+        100 will have a final total of 0 if a coupon with an amount_off of 200 is
+        applied to it and an invoice with a subtotal of 300 will have a final total
+        of 100 if a coupon with an amount_off of 200 is applied to it.
       operationId: postCoupons
       x-api-path-slug: coupons-post
       parameters:
@@ -4338,10 +4337,10 @@ paths:
   /coupons/{coupon}:
     delete:
       summary: Delete Coupons Coupon
-      description: "You can delete coupons via the coupon management page of the Stripe
+      description: You can delete coupons via the coupon management page of the Stripe
         dashboard. However, deleting a coupon does not affect any customers who have
-        already applied the coupon; it means that new customers can\u2019t redeem
-        the coupon. You can also delete coupons via the API."
+        already applied the coupon; it means that new customers can???t redeem the
+        coupon. You can also delete coupons via the API.
       operationId: deleteCouponsCoupon
       x-api-path-slug: couponscoupon-delete
       parameters:
@@ -6042,10 +6041,10 @@ paths:
   /customers/{customer}/subscriptions:
     get:
       summary: Get Customers Customer Subscriptions
-      description: "You can see a list of the customer\u2019s active subscriptions.
-        Note that the 10 most recent active subscriptions are always available by
-        default on the customer object. If you need more than those 10, you can use
-        the limit and starting_after parameters to page through additional subscriptions."
+      description: You can see a list of the customer???s active subscriptions. Note
+        that the 10 most recent active subscriptions are always available by default
+        on the customer object. If you need more than those 10, you can use the limit
+        and starting_after parameters to page through additional subscriptions.
       operationId: getCustomersCustomerSubscriptions
       x-api-path-slug: customerscustomersubscriptions-get
       parameters:
@@ -6175,22 +6174,22 @@ paths:
   /customers/{customer}/subscriptions/{subscription_exposed_id}:
     delete:
       summary: Delete Customers Customer Subscriptions Subscription Exposed
-      description: "Cancels a customer\u2019s subscription. If you set the at_period_end
+      description: Cancels a customer???s subscription. If you set the at_period_end
         parameter to true, the subscription will remain active until the end of the
         period, at which point it will be canceled and not renewed. By default, the
         subscription is terminated immediately. In either case, the customer will
         not be charged again for the subscription. Note, however, that any pending
-        invoice items that you\u2019ve created will still be charged for at the end
-        of the period unless manually deleted. If you\u2019ve set the subscription
-        to cancel at period end, any pending prorations will also be left in place
-        and collected at the end of the period, but if the subscription is set to
-        cancel immediately, pending prorations will be removed.By default, all unpaid
-        invoices for the customer will be closed upon subscription cancellation. We
-        do this in order to prevent unexpected payment attempts once the customer
-        has canceled a subscription. However, you can reopen the invoices manually
-        after subscription cancellation to have us proceed with payment collection,
-        or you could even re-attempt payment yourself on all unpaid invoices before
-        allowing the customer to cancel the subscription at all."
+        invoice items that you???ve created will still be charged for at the end of
+        the period unless manually deleted. If you???ve set the subscription to cancel
+        at period end, any pending prorations will also be left in place and collected
+        at the end of the period, but if the subscription is set to cancel immediately,
+        pending prorations will be removed.By default, all unpaid invoices for the
+        customer will be closed upon subscription cancellation. We do this in order
+        to prevent unexpected payment attempts once the customer has canceled a subscription.
+        However, you can reopen the invoices manually after subscription cancellation
+        to have us proceed with payment collection, or you could even re-attempt payment
+        yourself on all unpaid invoices before allowing the customer to cancel the
+        subscription at all.
       operationId: deleteCustomersCustomerSubscriptionsSubscriptionExposed
       x-api-path-slug: customerscustomersubscriptionssubscription-exposed-id-delete
       parameters:
@@ -6641,13 +6640,13 @@ paths:
       - Dispute
     post:
       summary: Add Disputes Dispute
-      description: "When you get a dispute, contacting your customer is always the
-        best first step. If that doesn\u2019t work, you can submit evidence in order
+      description: When you get a dispute, contacting your customer is always the
+        best first step. If that doesn???t work, you can submit evidence in order
         to help us resolve the dispute in your favor. You can do this in your dashboard,
         but if you prefer, you can use the API to submit evidence programmatically.Depending
         on your dispute type, different evidence fields will give you a better chance
         of winning your dispute. You may want to consult our guide to dispute types
-        to help you figure out which evidence fields to provide."
+        to help you figure out which evidence fields to provide.
       operationId: postDisputesDispute
       x-api-path-slug: disputesdispute-post
       parameters:
@@ -6708,10 +6707,10 @@ paths:
   /disputes/{dispute}/close:
     post:
       summary: Add Disputes Dispute Close
-      description: "Closing the dispute for a charge indicates that you do not have
-        any evidence to submit and are essentially \u2018dismissing\u2019 the dispute,
-        acknowledging it as lostThe status of the dispute will change from needs_response
-        to lost. Closing a dispute is irreversible."
+      description: Closing the dispute for a charge indicates that you do not have
+        any evidence to submit and are essentially ???dismissing??? the dispute, acknowledging
+        it as lostThe status of the dispute will change from needs_response to lost.
+        Closing a dispute is irreversible.
       operationId: postDisputesDisputeClose
       x-api-path-slug: disputesdisputeclose-post
       parameters:
@@ -7284,8 +7283,8 @@ paths:
       - Invoiceitems
     post:
       summary: Add Invoiceitems
-      description: "Adds an arbitrary charge or credit to the customer\u2019s upcoming
-        invoice."
+      description: Adds an arbitrary charge or credit to the customer???s upcoming
+        invoice.
       operationId: postInvoiceitems
       x-api-path-slug: invoiceitems-post
       parameters:
@@ -7342,9 +7341,8 @@ paths:
   /invoiceitems/{invoiceitem}:
     delete:
       summary: Delete Invoiceitems Invoiceitem
-      description: "Removes an invoice item from the upcoming invoice. Removing an
-        invoice item is only possible before the invoice it\u2019s attached to is
-        closed."
+      description: Removes an invoice item from the upcoming invoice. Removing an
+        invoice item is only possible before the invoice it???s attached to is closed.
       operationId: deleteInvoiceitemsInvoiceitem
       x-api-path-slug: invoiceitemsinvoiceitem-delete
       parameters:
@@ -7462,9 +7460,9 @@ paths:
       - Invoiceitem
     post:
       summary: Add Invoiceitems Invoiceitem
-      description: "Updates the amount or description of an invoice item on an upcoming
-        invoice. Updating an invoice item is only possible before the invoice it\u2019s
-        attached to is closed."
+      description: Updates the amount or description of an invoice item on an upcoming
+        invoice. Updating an invoice item is only possible before the invoice it???s
+        attached to is closed.
       operationId: postInvoiceitemsInvoiceitem
       x-api-path-slug: invoiceitemsinvoiceitem-post
       parameters:

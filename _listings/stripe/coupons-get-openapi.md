@@ -992,8 +992,8 @@ paths:
   /accounts:
     get:
       summary: Get Accounts
-      description: "Returns a list of accounts connected to your platform via Connect.
-        If you\u2019re not a platform, the list is empty."
+      description: Returns a list of accounts connected to your platform via Connect.
+        If you???re not a platform, the list is empty.
       operationId: getAccounts
       x-api-path-slug: accounts-get
       parameters:
@@ -2316,9 +2316,9 @@ paths:
   /application_fees:
     get:
       summary: Get Application Fees
-      description: "Returns a list of application fees you\u2019ve previously collected.
+      description: Returns a list of application fees you???ve previously collected.
         The application fees are returned in sorted order, with the most recent fees
-        appearing first."
+        appearing first.
       operationId: getApplicationFees
       x-api-path-slug: application-fees-get
       parameters:
@@ -3259,9 +3259,8 @@ paths:
   /charges:
     get:
       summary: Get Charges
-      description: "Returns a list of charges you\u2019ve previously created. The
-        charges are returned in sorted order, with the most recent charges appearing
-        first."
+      description: Returns a list of charges you???ve previously created. The charges
+        are returned in sorted order, with the most recent charges appearing first.
       operationId: getCharges
       x-api-path-slug: charges-get
       parameters:

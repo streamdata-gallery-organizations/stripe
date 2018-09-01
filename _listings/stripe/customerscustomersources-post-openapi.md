@@ -992,8 +992,8 @@ paths:
   /accounts:
     get:
       summary: Get Accounts
-      description: "Returns a list of accounts connected to your platform via Connect.
-        If you\u2019re not a platform, the list is empty."
+      description: Returns a list of accounts connected to your platform via Connect.
+        If you???re not a platform, the list is empty.
       operationId: getAccounts
       x-api-path-slug: accounts-get
       parameters:
@@ -2316,9 +2316,9 @@ paths:
   /application_fees:
     get:
       summary: Get Application Fees
-      description: "Returns a list of application fees you\u2019ve previously collected.
+      description: Returns a list of application fees you???ve previously collected.
         The application fees are returned in sorted order, with the most recent fees
-        appearing first."
+        appearing first.
       operationId: getApplicationFees
       x-api-path-slug: application-fees-get
       parameters:
@@ -3259,9 +3259,8 @@ paths:
   /charges:
     get:
       summary: Get Charges
-      description: "Returns a list of charges you\u2019ve previously created. The
-        charges are returned in sorted order, with the most recent charges appearing
-        first."
+      description: Returns a list of charges you???ve previously created. The charges
+        are returned in sorted order, with the most recent charges appearing first.
       operationId: getCharges
       x-api-path-slug: charges-get
       parameters:
@@ -4272,14 +4271,14 @@ paths:
       - Coupons
     post:
       summary: Add Coupons
-      description: "You can create coupons easily via the coupon management page of
+      description: You can create coupons easily via the coupon management page of
         the Stripe dashboard. Coupon creation is also accessible via the API if you
         need to create coupons on the fly.A coupon has either a percent_off or an
         amount_off and currency. If you set an amount_off, that amount will be subtracted
-        from any invoice\u2019s subtotal. For example, an invoice with a subtotal
-        of 100 will have a final total of 0 if a coupon with an amount_off of 200
-        is applied to it and an invoice with a subtotal of 300 will have a final total
-        of 100 if a coupon with an amount_off of 200 is applied to it."
+        from any invoice???s subtotal. For example, an invoice with a subtotal of
+        100 will have a final total of 0 if a coupon with an amount_off of 200 is
+        applied to it and an invoice with a subtotal of 300 will have a final total
+        of 100 if a coupon with an amount_off of 200 is applied to it.
       operationId: postCoupons
       x-api-path-slug: coupons-post
       parameters:
@@ -4336,10 +4335,10 @@ paths:
   /coupons/{coupon}:
     delete:
       summary: Delete Coupons Coupon
-      description: "You can delete coupons via the coupon management page of the Stripe
+      description: You can delete coupons via the coupon management page of the Stripe
         dashboard. However, deleting a coupon does not affect any customers who have
-        already applied the coupon; it means that new customers can\u2019t redeem
-        the coupon. You can also delete coupons via the API."
+        already applied the coupon; it means that new customers can???t redeem the
+        coupon. You can also delete coupons via the API.
       operationId: deleteCouponsCoupon
       x-api-path-slug: couponscoupon-delete
       parameters:

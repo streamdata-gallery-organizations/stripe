@@ -4,8 +4,8 @@ x-collection-name: Stripe
 x-complete: 0
 info:
   title: Stripe Get Accounts
-  description: "Returns a list of accounts connected to your platform via Connect.
-    If you\u2019re not a platform, the list is empty."
+  description: Returns a list of accounts connected to your platform via Connect.
+    If you???re not a platform, the list is empty.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
@@ -993,8 +993,8 @@ paths:
   /accounts:
     get:
       summary: Get Accounts
-      description: "Returns a list of accounts connected to your platform via Connect.
-        If you\u2019re not a platform, the list is empty."
+      description: Returns a list of accounts connected to your platform via Connect.
+        If you???re not a platform, the list is empty.
       operationId: getAccounts
       x-api-path-slug: accounts-get
       parameters:
